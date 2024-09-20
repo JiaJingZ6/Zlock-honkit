@@ -3,6 +3,7 @@
     "description": "Beginners guide for learning JavaScript",
     "author": "Suman Kunwar",
     "isbn": "",
+    "root": "./docs",
     "published": "12/22/2022",
     "copyright": "Suman Kunwar",
     "website": "https://sumankunwar.com.np",
@@ -14,18 +15,17 @@
     "plugins": [
       "hints",
       "theme-creative",
-      "sidebar-ad",
       "intopic-toc",
       "sharing",
       "exercises",
       "@honkit/honkit-plugin-ga",
       "sitemap",
-      "i18nsettings",
       "favicon-custom",
       "chapter-fold",
       "hide-published-with",
       "edit-link",
-      "ace-editor"
+      "ace-editor",
+      "back-to-top-button"
     ],
     "pdf": {
       "pageNumbers": true,
@@ -35,12 +35,6 @@
       }
     },
     "pluginsConfig": {
-      "sidebar-ad": {
-        "imageUrl": "https://d2sofvawe08yqg.cloudfront.net/learnjavascriptbeginnersguide/s_hero2x",
-        "url": "https://leanpub.com/learnjavascriptbeginnersguide/signup",
-        "description": "Get free <b>pdf</b> and <b>epub</b> version by joining on wishlist! ✨",
-        "btnText": "Read now!"
-      },
       "edit-link": {
                 "base": "https://github.com/sumn2u/learn-javascript/edit/main",
                 "label": ""
@@ -65,35 +59,6 @@
       },
       "sitemap": {
         "hostname": "https://javascript.sumankunwar.com.np/"
-      },
-      "i18nsettings": {
-        "language": "en",
-        "languages": [
-          {
-            "config": "en",
-            "text": "English"
-          },
-          {
-            "config": "fr",
-            "text": "Français"
-          },
-          {
-            "config": "np",
-            "text": "नेपाली"
-          },
-          {
-            "config": "tr",
-            "text": "Türkiye"
-          },
-          {
-            "config": "id",
-            "text": "Indonesian"
-          },
-          {
-            "config": "es",
-            "text": "Español"
-          }
-        ]
       }
     }
 }

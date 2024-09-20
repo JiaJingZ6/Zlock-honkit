@@ -15,7 +15,6 @@
     "gitbook-plugin-hints": "^1.0.2",
     "gitbook-plugin-intopic-toc": "^1.0.6",
     "gitbook-plugin-sharing": "github:sumn2u/plugin-sharing",
-    "gitbook-plugin-sidebar-ad": "github:sumn2u/gitbook-plugin-sidebar-ad",
     "gitbook-plugin-sitemap": "^1.2.0",
     "gitbook-plugin-theme-creative": "github:sumn2u/gitbook-plugin-theme-creative",
     "honkit": "^4.0.4",
@@ -36,5 +35,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "gitbook-plugin-back-to-top-button": "^0.1.4"
   }
 }
