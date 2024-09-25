@@ -6,7 +6,7 @@ description: JavaScript is a high-level, interpreted, and dynamically-typed prog
 # Chapter 1
 # Introduction
 
-{% include "components/columns.html" with { "col1": "第一栏内容", "col2": "第二栏内容" } %}
+{% include "./columns.html" with { "col1": "第一栏内容", "col2": "第二栏内容" } %}
 
 
 
