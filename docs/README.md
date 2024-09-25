@@ -6,7 +6,7 @@ description: JavaScript is a high-level, interpreted, and dynamically-typed prog
 # Chapter 1
 # Introduction
 
-<table border="none">
+<table style="border: none">
  <tr>
     <td><b style="font-size:30px">Title</b></td>
     <td><b style="font-size:30px">Title 2</b></td>
