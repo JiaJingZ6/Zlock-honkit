@@ -6,7 +6,8 @@ description: JavaScript is a high-level, interpreted, and dynamically-typed prog
 # Chapter 1
 # Introduction
 
-{% include "./columns.html" %}
+{% include "components/columns.html" with { "col1": "第一栏内容", "col2": "第二栏内容" } %}
+
 
 
 Computers are common in today's world, as they are able to perform a wide variety of tasks quickly and accurately. They are used in many different industries, such as business, healthcare, education, and entertainment, and have become an essential part of daily life for many people. Besides this, they are also used to perform complex scientific and mathematical calculations, to store and process large amounts of data, and to communicate with people around the world.
