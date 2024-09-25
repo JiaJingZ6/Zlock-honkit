@@ -6,16 +6,18 @@ description: JavaScript is a high-level, interpreted, and dynamically-typed prog
 # Chapter 1
 # Introduction
 
-<table style="border: none">
- <tr>
-    <td><b style="font-size:30px">Title</b></td>
-    <td><b style="font-size:30px">Title 2</b></td>
- </tr>
- <tr>
-    <td>Lorem ipsum ...</td>
-    <td>Lorem ipsum ...</td>
- </tr>
-</table>
+<div style="display: flex;">
+
+<div style="flex: 1; padding: 10px;">
+第一栏内容
+</div>
+
+<div style="flex: 1; padding: 10px;">
+第二栏内容
+</div>
+
+</div>
+
 Computers are common in today's world, as they are able to perform a wide variety of tasks quickly and accurately. They are used in many different industries, such as business, healthcare, education, and entertainment, and have become an essential part of daily life for many people. Besides this, they are also used to perform complex scientific and mathematical calculations, to store and process large amounts of data, and to communicate with people around the world.
 
 Programming involves creating a set of instructions, called a program, for a computer to follow. Writing a program can be tedious and frustrating at times because computers are very precise and need specific instructions in order to complete tasks.
