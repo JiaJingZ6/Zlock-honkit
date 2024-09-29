@@ -12,20 +12,24 @@
     "totalpages": 322,
     "hidepageheaders": [1,2, 3, 10, 40],
     "hidepagefooters": [1,2, 3, 10, 40],
+    "baseDir": "./",
     "plugins": [
       "hints",
+      "code",
       "theme-creative",
       "intopic-toc",
-      "sharing",
       "exercises",
       "@honkit/honkit-plugin-ga",
       "sitemap",
       "favicon-custom",
       "chapter-fold",
       "hide-published-with",
-      "edit-link",
       "ace-editor",
-      "back-to-top-button"
+      "back-to-top-button",
+      "tbfed-pagefooter",
+      "prism",
+      "-highlight",
+      "insert-logo"
     ],
     "pdf": {
       "pageNumbers": true,
@@ -35,19 +39,6 @@
       }
     },
     "pluginsConfig": {
-      "edit-link": {
-                "base": "https://github.com/sumn2u/learn-javascript/edit/main",
-                "label": ""
-            },
-      "sharing": {
-        "facebook": true,
-        "twitter": true,
-        "google": false,
-        "weibo": false,
-        "instapaper": false,
-        "vk": false,
-        "all": ["facebook", "google", "twitter", "weibo", "instapaper"]
-      },
       "ga": {
             "trackingID": "G-57X6JSDN82",
             "anonymizeIP": true
@@ -59,6 +50,28 @@
       },
       "sitemap": {
         "hostname": "https://javascript.sumankunwar.com.np/"
+      },
+      "fontsettings": {
+          "theme": "white",
+          "family": "serif",
+          "size": 2 
+      },
+      "tbfed-pagefooter": {
+        "copyright":"Copyright ©Zlock",
+        "modify_label": "Update Time:",
+        "modify_format": "YYYY-MM-DD HH:mm:ss"
+      },
+      "prism": {
+        "css": [
+            "prismjs/themes/prism-tomorrow.css"
+        ]
+      },
+      "code": {
+        "copyButtons": true
+      },
+      "insert-logo": {
+        "url": "https://pic.imgdb.cn/item/66f9351cf21886ccc0abb520.png",
+        "style": "background: none; max-height: 100px; min-height: 30px"
       }
     }
 }

@@ -17,7 +17,7 @@
     "gitbook-plugin-sharing": "github:sumn2u/plugin-sharing",
     "gitbook-plugin-sitemap": "^1.2.0",
     "gitbook-plugin-theme-creative": "github:sumn2u/gitbook-plugin-theme-creative",
-    "honkit": "^4.0.4",
+    "honkit": "^3.7.5",
     "honkit-plugin-i18nsettings": "^1.0.0"
   },
   "scripts": {
@@ -37,6 +37,11 @@
     }
   },
   "dependencies": {
-    "gitbook-plugin-back-to-top-button": "^0.1.4"
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-code": "^0.1.0",
+    "gitbook-plugin-insert-logo": "^0.1.5",
+    "gitbook-plugin-popup": "^0.0.1",
+    "gitbook-plugin-prism": "^2.4.0",
+    "gitbook-plugin-tbfed-pagefooter": "^0.0.1"
   }
 }
