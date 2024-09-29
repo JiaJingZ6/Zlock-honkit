@@ -7,19 +7,6 @@ description: JavaScript is a high-level, interpreted, and dynamically-typed prog
 # Introduction
 
 
-<div id="my-component"></div>
-<script>
-    function renderComponent(data) {
-        const container = document.getElementById('my-component');
-        container.innerHTML = `<h1>${data.title}</h1><p>${data.content}</p>`;
-    }
-    const data = { title: "Hello, World!", content: "这是内容。" };
-    renderComponent(data);
-</script>
-
-{% include "./columns.html" with { "col1": "第一栏内容", "col2": "第二栏内容" } %}
-
-
 
 Computers are common in today's world, as they are able to perform a wide variety of tasks quickly and accurately. They are used in many different industries, such as business, healthcare, education, and entertainment, and have become an essential part of daily life for many people. Besides this, they are also used to perform complex scientific and mathematical calculations, to store and process large amounts of data, and to communicate with people around the world.
 
