@@ -6,7 +6,9 @@ description: JavaScript is a high-level, interpreted, and dynamically-typed prog
 # Chapter 1
 # Introduction
 
+{% import "movie.html" as movie %}
 
+{{ movie.movie_details('https://a.ltrbxd.com/resized/film-poster/1/0/0/1/8/3/6/1001836-yannick-0-460-0-690-crop.jpg', 'The Shawshank Redemption', '1994', 'Frank Darabont', 'Stephen King', ['Tim Robbins', 'Morgan Freeman', 'Bob Gunton'], ['Drama'], 'USA', 'English', '14 Feb 1994', 142, 9.3, 'tt0111161') }}
 
 Computers are common in today's world, as they are able to perform a wide variety of tasks quickly and accurately. They are used in many different industries, such as business, healthcare, education, and entertainment, and have become an essential part of daily life for many people. Besides this, they are also used to perform complex scientific and mathematical calculations, to store and process large amounts of data, and to communicate with people around the world.
 
