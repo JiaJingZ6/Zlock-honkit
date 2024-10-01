@@ -5,6 +5,8 @@
 - [Copyright](Copyright.md)
 - [Preface](Preface.md)
 - [Introduction](README.md)
+- [字幕组](fansub-group/README.md)
+  - [佬友字幕组](fansub-group/laoyou.md)
 - [Basics](basics/README.md)
   - [Comments](basics/comments.md)
   - [Variables](basics/variables.md)

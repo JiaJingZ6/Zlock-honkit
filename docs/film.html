@@ -1,0 +1,18 @@
+{% macro film_details(posterUrl, title, title_en, year, director, language, duration) %}
+<section style="display: flex; flex-wrap: wrap; border: 1px dotted #3e3e3e; border-radius: 10px; padding: 15px; margin-bottom: 20px; width: 520px; height: 300px;">
+    <div style="flex: 1 1 40%; min-width: 180px; padding-right: 10px; height: 100%;">
+        <img src="{{ posterUrl }}" alt="{{ title }} 海报" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    </div>
+    <div style="flex: 1 1 60%; min-width: 180px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div style="text-align: right;">
+            <span style="margin: 0; letter-spacing: 3px; font-size: 1.5em; font-weight: bold; display: block;">{{ title }}</span>
+            <p style="margin: 0; font-size: 12px; letter-spacing: 1px;">{{ title_en }} ({{ year }})</p>
+        </div>
+        <div style="text-align: right; font-size: 13px; letter-spacing: 1px; line-height: 1.8;">
+            <p style="margin: 0;">导演：{{ director }}</p>
+            <p style="margin: 0;">语言：{{ language }}</p>
+            <p style="margin: 0;">片长：{{ duration }}分钟</p>
+        </div>
+    </div>
+</section>
+{% endmacro %}
